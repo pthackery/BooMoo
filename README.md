@@ -1,3 +1,5 @@
+# design doc link: https://docs.google.com/document/d/1H25P9NvXxivWghLo-lOYUAI-qjrDBuh93Zc5O7CdRnE/edit?ts=5c781fbc
+
 # The SpatialOS GDK for Unity Blank Starter Project
 
 This is a blank project that you can use to build your own game with the [SpatialOS GDK for Unity](https://github.com/spatialos/gdk-for-unity).
