@@ -1,5 +1,6 @@
 ﻿using Improbable;
 using Improbable.Gdk.Core;
+using Improbable.Gdk.GameObjectCreation;
 using Improbable.Gdk.PlayerLifecycle;
 using Improbable.Gdk.TransformSynchronization;
 
@@ -19,6 +20,7 @@ namespace BlankProject
         {
             Worker.World.GetOrCreateManager<MetricSendSystem>();
             PlayerLifecycleHelper.AddServerSystems(Worker.World);
+            GameObjectCreationHelper.EnableStandardGameObjectCreation(Worker.World);
         }
 
         private static EntityTemplate CreatePlayerEntityTemplate(string workerId, Improbable.Vector3f position)
